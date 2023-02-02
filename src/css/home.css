@@ -1,0 +1,39 @@
+.home-page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title {
+    text-align: center;
+    margin: auto;
+    animation-duration: 4s;
+}
+
+.home-accent {
+    display: block;
+    animation-name: home-subtitle-transform;
+    animation-duration: 4s;
+}
+
+
+@keyframes home-color-change {
+    0% {background-color: #001F3A;}
+    50%  {background-color: rgb(1, 74, 176);}
+   100% {background-color: #001F3A;}
+   
+}
+
+@keyframes home-subtitle-transform {
+    0% {transform: translateX(-1000%);}
+    100% {transform: translateX(0%);} 
+}
+
+@keyframes home-title-transform {
+    0% {transform: translateX(100%);}
+    50%{transform: translateX(-220%);}
+    100% {transform: translateX(0%);} 
+}

@@ -1,0 +1,13 @@
+.main {
+    height: 100%;
+}
+
+.nav-offset {
+    height: 100px;
+    width: 100%;    
+}
+
+.footer {
+    height: 100px;
+    background-color: #0e3e68;
+}

@@ -1,0 +1,77 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    margin: 15px auto; /* Will not center vertically and won't work in IE6/7. */
+    left: 0;
+    right: 0;
+
+    animation-name:  nav-transform;
+    animation-duration: 4.5s;
+}
+
+.nav-menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #ffffff1a;
+  }
+  
+
+.nav-expand {
+    top: 0.75rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    background: transparent;;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.nav-item{
+    flex: 1;
+}
+
+.nav-item  a {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none; 
+    display: block;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+
+.hideMenu {
+    display: none;
+}
+
+.nav-item a:hover {
+    background-color: #ffffff10;
+}
+
+.nav-item-end-right {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.nav-item-end-left {
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+
+
+
+@keyframes nav-transform {
+    0% {transform: translateY(-10000%);}
+    50% {transform: translateY(50%);} 
+    100% {transform: translateY(0%);} 
+}
