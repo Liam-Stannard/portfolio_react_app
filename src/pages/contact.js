@@ -2,16 +2,20 @@ import '../css/contact.css';
 
 import ContactForm from '../components/contactForm';
 import ContactDetails from '../components/contactDetails';
+import Page from "./page";
 
-const Contact = ({contactInfo}) => {
+const Contact = ({ contactInfo }) => {
   return (
-    <section className='contact-page'>
+    <Page content={<section className='contact-page'>
       <h1>Contact.</h1>
       <div className='contact-page-content'>
-          <ContactDetails contactInfo={contactInfo}/>
-          <ContactForm/>
+        <ContactDetails contactInfo={contactInfo} />
+        <ContactForm />
       </div>
-    </section>)
+    </section>
+
+    } />
+  )
 };
 
 export default Contact;
