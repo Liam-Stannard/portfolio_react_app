@@ -1,0 +1,11 @@
+
+
+.contact-page {
+    font-size: 2rem;
+}
+
+.contact-page-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}

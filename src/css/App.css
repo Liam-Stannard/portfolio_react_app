@@ -4,11 +4,16 @@
   height: 100vh;
   color: white;
   font-family: "Fredoka", sans-serif;
+ 
 }
 
 .content {
   height: 100%;
   text-align: center;
+}
+
+main {
+  margin: auto;
 }
 
 

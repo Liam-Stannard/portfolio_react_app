@@ -1,0 +1,14 @@
+
+.contact-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contact-details-email {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+

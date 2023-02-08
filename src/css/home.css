@@ -21,9 +21,10 @@
 
 
 @keyframes home-color-change {
-    0% {background-color: #001F3A;}
+  /*  0% {background-color: #001F3A;}
     50%  {background-color: rgb(1, 74, 176);}
    100% {background-color: #001F3A;}
+   */
    
 }
 

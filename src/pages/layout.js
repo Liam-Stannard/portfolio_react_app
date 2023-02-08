@@ -6,10 +6,8 @@ const Layout = (props) => {
     <>
         <Navbar/>
         <div className="nav-offset"/>
-        <div className="main">
         <Outlet />
-        </div>
-        <div className="footer"></div>
+        <footer className="footer">I am a simple footer</footer>
     </>
   )
 };
