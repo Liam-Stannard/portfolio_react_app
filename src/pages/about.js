@@ -1,7 +1,10 @@
+import Page from "./page";
+
 import '../css/about.css'
 
 const About = (props) => {
   return (
+    <Page content={
     <div className='about-page'>
         <h1>About</h1>
         <div className="about-skills">
@@ -43,7 +46,7 @@ const About = (props) => {
           </div>
           </div>
         </div>
-    </div>
+    </div>}/>
   )
 };
 

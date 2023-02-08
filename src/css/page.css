@@ -1,0 +1,15 @@
+.page-margin{
+    min-width: 5%;
+}
+
+.page-main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.page-content {
+    height: 100%;
+    flex: 1;
+}
+    
