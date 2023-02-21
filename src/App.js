@@ -10,13 +10,21 @@ import NotFound from './pages/notFound'
 function App() {
 
   let name = "Liam Stannard"
+
+let contactInfo = {
+  city:   "Darlington",
+  email: "liamstannard1@outlook.com",
+  linkedin: "https://www.linkedin.com/in/liam-stannard-101666154/",
+  github: "https://github.com/Liam-Stannard"
+}
+
   return (
     <div className="App">
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home name={name}/>} />
-          <Route path="contact" element={<Contact/>} />
+          <Route path="contact" element={<Contact contactInfo={contactInfo}/>} />
           <Route path="projects" element={<Projects />} />
           <Route path="about" element={<About />} />
           <Route path="*" element={<NotFound />} />

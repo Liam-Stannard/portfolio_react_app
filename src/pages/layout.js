@@ -7,10 +7,8 @@ const Layout = (props) => {
     <>
         <Navbar/>
         <div className="nav-offset"/>
-        <div className="main">
         <Outlet />
-        </div>
-        <div className="footer"></div>
+        
     </>
   )
 };

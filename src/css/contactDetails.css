@@ -1,0 +1,43 @@
+.contact-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details-links-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.contact-details-icon {
+    padding: 5px;
+    color: grey;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: grey;
+}
+
+.contact-details-icon:hover {
+    padding: 20px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+
+.contact-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contact-details-email {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+

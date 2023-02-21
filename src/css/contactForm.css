@@ -1,0 +1,68 @@
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.contact-form-group {
+    display: grid;
+    gap: 5px;
+}
+
+.contact-form-wrapper {
+    flex: 1;
+}
+
+
+input, textarea {
+    padding: 5px 10px;
+    background: #121212;
+    color: white;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.contact-form-button {
+    height: 3rem;
+    font: inherit;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+	text-shadow: none;
+}
+
+.contact-form-button:hover {
+    background-color: rgb(68, 66, 66);
+}
+
+.contact-form-input-message {
+    height: 5rem;
+}
+
+.contact-form-group-name-email {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.contact-form-group-name, .contact-form-group-email{
+    display: grid;
+    gap: 5px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 400px){
+
+    .contact-form-group-name-email {
+        display: grid;       
+    }
+    
+}
+
