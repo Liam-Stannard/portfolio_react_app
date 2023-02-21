@@ -1,23 +1,7 @@
-import { useState } from 'react';
-import { useMediaQuery } from 'react-responsive';
 import { Link } from "react-router-dom";
-import {MdMenu}  from "react-icons/md";
-import { MdClose } from "react-icons/md"
-
 import '../css/navbar.css'
 
 function Navbar() {
-
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
-
-
-    const handleMenuToggle = () => {
-        setIsMenuOpen(prev => !prev);
-    }
-    
-
-
 
     return (
         <nav className="navbar">
