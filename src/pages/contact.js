@@ -6,14 +6,14 @@ import Page from "./page";
 
 const Contact = ({ contactInfo }) => {
   return (
-    <Page content={<section className='contact-page'>
-      <h1>Contact.</h1>
-      <div className='contact-page-content'>
-        <ContactDetails contactInfo={contactInfo} />
-        <ContactForm />
+    <Page content={
+      <div className='contact-page'>
+        <h1>Contact.</h1>
+        <div className='contact-page-content'>
+          <ContactDetails contactInfo={contactInfo} />
+          <ContactForm />
+        </div>
       </div>
-    </section>
-
     } />
   )
 };

@@ -8,7 +8,7 @@ const Layout = (props) => {
         <Navbar/>
         <div className="nav-offset"/>
         <Outlet />
-        <footer className="footer">I am a simple footer</footer>
+        
     </>
   )
 };
