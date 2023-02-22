@@ -1,7 +1,5 @@
 html, body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
   background-color: black;
   animation-name: home-color-change;
   animation-duration: 4s;

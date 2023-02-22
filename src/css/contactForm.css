@@ -3,8 +3,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .contact-form-group {
@@ -45,9 +44,9 @@ input, textarea {
 }
 
 .contact-form-group-name-email {
-    display: flex;
+   /* display: flex;
     gap: 20px;
-    width: 100%;
+    width: 100%;*/
 }
 
 
