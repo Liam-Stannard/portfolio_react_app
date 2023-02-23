@@ -47,8 +47,37 @@ const portfolio = {
   github: "https://github.com/Liam-Stannard/portfolio_react_app"
 };
 
-
 const projects = [revisionBackend, revisionFrontend, portfolio];
+
+//About Data 
+const skillGroupFrontend = {
+  title: "Frontend",
+  skills: [{title:"CSS"}, {title:"Javascript"}, {title:"React"}]
+};
+
+const skillGroupBackend = {
+  title: "Backend",
+  skills: [{title: "Java"}, {title:"Python"}]
+};
+
+const skillGroupOther = {
+  title: "Other",
+  skills: [{title: "Linux"}, {title:"Git"}]
+};
+
+const skillGroups = [skillGroupBackend, skillGroupFrontend, skillGroupOther];
+
+const accentureStartDate = new Date("2020-04")
+
+const employmentAccenture = {
+  employer: "Accenture",
+  startDate: accentureStartDate.toDateString(),
+  endDate: null,
+  role: "Application Development Analyst",
+  callouts: ["Call outs needs to be written. ", "Delivered something", "Trained someone", "Impacted somewhere"]
+}
+
+const employments = [employmentAccenture]
 
   return (
     <div className="App">
