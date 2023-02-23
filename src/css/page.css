@@ -5,6 +5,7 @@
 .page-main {
     display: flex;
     flex-direction: row;
+    margin: 0;
 }
 
 .page-content {
@@ -12,10 +13,10 @@
 }
     
 .page-footer {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: auto;
     height: 100px;
     background-color: #3d3d3d;
 }

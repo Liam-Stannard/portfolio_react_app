@@ -1,51 +1,39 @@
 import Page from "./page";
+import SkillGroup from "../components/skillGroup"
 
 import '../css/about.css'
+import Employment from "../components/employment";
 
 const About = (props) => {
   return (
     <Page content={
     <div className='about-page'>
-        <h1>About</h1>
-        <div className="about-skills">
-          <h2>Skills</h2>  
-          <div className="about-skills-boxes">
-          <div className="about-skills-backend"><h3>Backend</h3>
-          <ul className='about-skills-list'>
-            <li>Java</li>
-
-            <li>Python</li>
-
-          </ul>
-          
+        <h1>About.</h1>
+        <section className="about-skills">
+          <h2>Skills.</h2>  
+          <div className="about-skills-boxes-wrapper">
+            <ul className="about-skills-boxes">
+            {props.skillGroups && props.skillGroups.map((skillGroup, index) => 
+            <li key={index} className="about-skills-box">
+              <SkillGroup skillGroup={skillGroup}/>
+            </li>)
+            }
+            </ul>
           </div>
-          <div className="about-skills-frontend"><h3>Frontend</h3>
-          <ul className='about-skills-list'>
-            <li>HTML</li>
+        </section>
+        <section className="about-employments">
+          <h2>Employments.</h2>
+          <div className="about-employments-boxes-wrapper">
+          <ul className="about-employments-boxes">
+            {props.employments && props.employments.map((employment, index) => 
+            <li key={index} className="about-employment-box">
+              <Employment employment={employment}/>
+            </li>)
+            }
+            </ul>
 
-            <li>CSS</li>
-
-            <li>Javascript</li>
-
-            <li>React</li>
-
-          </ul>
           </div>
-
-          <div className="about-skills-tools"><h3>Other Tools</h3>
-          <ul className='about-skills-list'> 
-            <li>VS Code</li>
-
-            <li>Git</li>
-
-            <li>Linux</li>
-
-            <li>React</li>
-
-          </ul>
-          </div>
-          </div>
-        </div>
+        </section>
     </div>}/>
   )
 };
