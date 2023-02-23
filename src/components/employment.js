@@ -1,4 +1,3 @@
-import {dateToString} from '../util/dateUtils'
 import '../css/navbar.css'
 
 function Employment({employment}) {

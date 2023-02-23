@@ -87,7 +87,7 @@ const employments = [employmentAccenture]
           <Route index element={<Home name={name}/>} />
           <Route path="contact" element={<Contact contactInfo={contactInfo}/>} />
           <Route path="projects" element={<Projects projects={projects} />} />
-          <Route path="about" element={<About />} />
+          <Route path="about" element={<About employments={employments} skillGroups={skillGroups} />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
