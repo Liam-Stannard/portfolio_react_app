@@ -1,0 +1,11 @@
+.about-skill-group-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-skill-group {
+    list-style: none;
+    padding: 0;
+
+}

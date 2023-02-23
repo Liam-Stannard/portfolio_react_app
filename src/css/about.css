@@ -3,36 +3,27 @@
     display: block;
 }
 
+
+
+.about-skills-boxes-wrapper {
+
+}
+
 .about-skills-boxes {
     display: flex;
     justify-content: center;
     gap: 20px 20px;
     flex-wrap: wrap;
-}
-
-.about-skills-backend {
-    background-color: red;
-}
-
-.about-skills-frontend {
-    background-color: rgb(0, 255, 0);
-}
-
-.about-skills-tools {
-    background-color: rgb(204, 255, 0);
-}
-
-.about-skills-frontend, .about-skills-backend, .about-skills-tools {
-    flex-grow: 1;
-    height: 250px;
+    list-style: none;
+    padding: 0;
     text-align: center;
-    min-width: 340px;
-    font-weight: bold;
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px black;
-    background: rgba(255, 255, 255, 0.174);
-    
 }
+
+.about-skills-box {
+    flex: 1;
+}
+
+
 
 .about-skills-list {
     list-style: none;

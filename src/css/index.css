@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  background-color: #001F3A;
+  background-color: black;
   animation-name: home-color-change;
   animation-duration: 4s;
 }
