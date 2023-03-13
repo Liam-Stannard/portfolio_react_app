@@ -1,4 +1,4 @@
-import Page from "./page";
+import Section from "./section";
 import SkillGroup from "../components/skillGroup"
 
 import '../css/about.css'
@@ -6,8 +6,8 @@ import Employment from "../components/employment";
 
 const About = (props) => {
   return (
-    <Page content={
-    <div className='about-page'>
+    <Section content={
+    <div className='about-section' id="about-section">
         <h1>About.</h1>
         <section className="about-skills">
           <h2>Skills.</h2>  

@@ -1,8 +1,8 @@
-import Page from "./page";
+import Section from "./section";
 
 
 const NotFound = () => {
-    return (<Page content={<h1>404</h1>}/>);
+    return (<Section content={<h1>404</h1>}/>);
   }
   
   export default NotFound;

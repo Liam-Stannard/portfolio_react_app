@@ -1,18 +1,19 @@
-import { Link } from "react-router-dom";
-
 import '../css/navbar.css'
 
 function Navbar() {
 
     return (
-        <nav className="navbar">
-            <ul className="nav-menu">
-                <li className='nav-item nav-item-end-left'><Link className='nav-item-end-left' to="/">Home</Link></li>
-                <li className='nav-item'><Link to="/about">About</Link></li>
-                <li className='nav-item'><Link to="/projects">Projects</Link></li>
-                <li className='nav-item nav-item-end-right'><Link className='nav-item-end-right' to="/contact">Contact</Link></li>
-            </ul>
-        </nav>
+        <>
+            <nav className="navbar">
+                <ul className="nav-menu">
+                    <li className='nav-item nav-item-end-left'><a className='nav-item-end-left' href="#home-section">Home</a></li>
+                    <li className='nav-item'><a href="#about-section">About</a></li>
+                    <li className='nav-item'><a href="#projects-section">Projects</a></li>
+                    <li className='nav-item nav-item-end-right'><a className='nav-item-end-right' href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+            <div className="nav-offset"/>
+        </>
     );
 }
 

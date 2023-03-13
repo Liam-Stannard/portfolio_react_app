@@ -1,13 +1,8 @@
-.about-page{
+.about-section{
     margin: 0% 10% 0% 10%;
     display: block;
 }
 
-
-
-.about-skills-boxes-wrapper {
-
-}
 
 .about-skills-boxes {
     display: flex;
